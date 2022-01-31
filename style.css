@@ -1,0 +1,73 @@
+body{
+    background: #F7F9FA;
+}
+#forms{
+    background: white;
+    padding: 30px;
+    margin: 45px;
+}
+@media (min-width: 768px) {
+    #forms{
+        width:80%;
+        margin: 45px;
+    }
+    #show-alert{
+        width: 70%;
+    }
+    .col-form-label{
+        text-align: right;
+    }
+}
+.purple-btn{
+    width: 100%;
+    text-align: center;
+    color: #6558F5;
+    border-color: #6558F5;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 100%;
+}
+.purple-btn:hover{
+    background: #6558F5;
+    color: white;
+}
+.btn-purple{
+    text-align: center;
+    color: white;
+    background: #6558F5;
+}
+.btn-purple:hover{
+    color: white;
+    background: #6759ffa2;
+}
+.country-dropdown{
+    border:1px solid #CED4DA;
+}
+#show-alert{
+    display: none;
+}
+.fa-user{
+    font-size: 50px;
+}
+.purple-hr{
+    position: relative;
+}
+.purple-hr::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to bottom,#e8e6ffa2,#5d4ff1);
+    transform: translate(-100%,0);
+    border-radius: 4px;
+    top: 100%;
+}
+.icon-txt-margin{
+    margin-left: 10px;
+}
+.card-custom{
+    box-shadow: 3px 6px 15px rgb(192, 192, 192);
+    padding: 20px;
+    border-radius: 5px;
+}
